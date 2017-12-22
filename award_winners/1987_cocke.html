@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>John Cocke</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <Script language="JavaScript" src="../header.js"></Script>
+    <div id='buttonL'>
+        <a href="../award_winners/1986_hopcroft_tarjan.html">
+            <img src="images/arrowL.png" width="50"/></a></div>
+    <div id='buttonR'>
+        <a href="../award_winners/1988_sutherland.html">
+            <img src="images/arrowR.png" width="50"/></a>
+    </div>
+    <script>
+        function movePage(e){
+            switch(e.keyCode){
+                case 37:
+                    location.href = '../award_winners/1986_hopcroft_tarjan.html';
+                    break;
+                case 39:
+                    location.href = '../award_winners/1988_sutherland.html';
+                    break;
+            }
+        }
+        addEventListener("keydown", movePage);
+    </script>
+    <div id="container">
+        <div id="center">
+            <table style="margin-left:10%; width: 80%" >
+                <tr>
+                    <td><img src="images/photos/1987.jpg" width="150"></td>
+                    <td align="left" valign="top">
+                        <p><font color="white" size=5><b>1987 год</b></font></p>
+                        <p><font color="white" size=5><b>John Cocke</b> (1925–2002)</font></p>
+                        <br>
+                        <p align="justify"><font color="white" size=5>«За выдающийся вклад в проектирование и теорию компиляторов, архитектуру больших систем и разработку RISC-компьютеров; за обнаружение и систематизацию многих фундаментальных преобразований, используемых в настоящее время для оптимизации компиляторов, включая снижение силы оператора, устранение общих подвыражений, распределение регистров, распространение констант и удаление избыточного кода»</font></p>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="container2">
+                <div id="textbody">
+                    <br>
+                    <p><b>Страна: </b>США</p>
+                    <p><b>Образование: </b>Доктор философии в области математики, Университет Дюка, 1953</p>
+                    <br>
+                    <p><b>О лауреате</b></p>
+                    <p align="justify"><font >Cocke сделал большой вклад в архитектуру высокопроизводительных компьютеров и разработку оптимизированных компиляторов. Он начал в 1975 году, присоединившись к разработке экспериментального мини-компьютера IBM 801, который изначально был исследовательским проектом, а позднее стал коммерческим продуктом. Полученная архитектура не была похожа на распространённую тогда практику наличия множества сложных инструкций, встроенных в аппаратное обеспечение. Это казалось полезным для определённых случаев в программировании, но разработчикам компиляторов высокоуровневых языков было очень сложно их использовать при создании скомпилированного кода. Cocke решил разработать 801 с небольшим набором основных инструкция, оптимизированных для использования компиляторами, что привело к более простой и быстрой системе. Это оказало большое влияние на исследования компьютерной архитектуры, а позднее было названо «компьютером с сокращённым набором команд» (RISC). Критически важным для успеха RISC был оптимизирующий компилятор, способный эффективно использовать сокращенный набор команд. Cocke также участвовал в первых разработках алгоритмов по распознаванию речи и машинному переводу.</font></p>
+                    <br>
+                    <p><b>Ключевые слова: </b>RISC, CYK algorithm</p>
+                    <br>
+                    <p><b>Краткая библиография</b></p>
+                    <table style="width: 100%" >
+                        <tr>
+                            <td align="right" valign="top" >1.</td>
+                            <td>
+                                <p>Cocke, John, “The search for performance in scientific processors: the Turing Award lecture,” Communications of the ACM, Vol. 31, Num. 3, March 1988, pp. 250-253</p>
+                                <p><b><i>В этом докладе Cocke описывает три самых интересных проекта, в которых он участвовал в IBM.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1987_cocke/The_search_for_performance_in_scientific_processors.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >2.</td>
+                            <td>
+                                <p>Cocke, J. and V. Markstein, “The evolution of RISC technology at IBM” IBM Journal of. Research and Development, Vol. 34, Num. 1, January 1990, pp. 4-11.  </p>
+                                <p><b><i>В этой статье отслеживается эволюция архитектуры IBM RISC с 1970-х годов.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1987_cocke/The_evolution_of_RISC_technology_at_IBM.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >3.</td>
+                            <td>
+                                <p>Cocke, John and Jacob T. Schwartz, Programming Languages and their Compilers, Courant Institute of Mathematical Sciences, New York University, April 1970.  </p>
+                                <p><b><i>Эта книга посвящена алгоритмам оптимизации. Cocke включил в неё многие из ныне знакомых методов, таких как устранение избыточного кода и снижение силы оператора.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1987_cocke/Programming_Languages_and_their_Compilers.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+                <Script language="JavaScript" src="../footer.js"></Script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

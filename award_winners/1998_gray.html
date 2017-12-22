@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>James N. Gray</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <Script language="JavaScript" src="../header.js"></Script>
+    <div id='buttonL'>
+        <a href="../award_winners/1997_engelbart.html">
+            <img src="images/arrowL.png" width="50"/></a></div>
+    <div id='buttonR'>
+        <a href="../award_winners/1999_brooks.html">
+            <img src="images/arrowR.png" width="50"/></a>
+    </div>
+    <script>
+        function movePage(e){
+            switch(e.keyCode){
+                case 37:
+                    location.href = '../award_winners/1997_engelbart.html';
+                    break;
+                case 39:
+                    location.href = '../award_winners/1999_brooks.html';
+                    break;
+            }
+        }
+        addEventListener("keydown", movePage);
+    </script>
+    <div id="container">
+        <div id="center">
+            <table style="margin-left:10%; width: 80%" >
+                <tr>
+                    <td><img src="images/photos/1998.jpg" width="150"></td>
+                    <td align="left" valign="top">
+                        <p><font color="white" size=5><b>1998 год</b></font></p>
+                        <p><font color="white" size=5><b>James N. Gray</b> (1944-2007)</font></p>
+                        <br>
+                        <p align="justify"><font color="white" size=5>«За основополагающие идеи в области баз данных, исследования обработки транзакций и техническое лидерство в реализации систем»</font></p>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="container2">
+                <div id="textbody">
+                    <br>
+                    <p><b>Страна: </b>США</p>
+                    <p><b>Образование: </b>Доктор философии в области информатики, Калифорнийский университет (Беркли), 1969</p>
+                    <br>
+                    <p><b>О лауреате</b></p>
+                    <p align="justify"><font >В 1973 году James Gray принял приглашение от исследовательской лаборатории IBM в Сан-Хосе, где присоединился к проекту, известному как System R. Проект служил основой для индустрии реляционных баз данных. Он играл ведущую роль в этом проекте объединив свой опыт с системами и теорией для создания единого подхода к взаимосвязанным проблемам контроля и восстановления после сбоев. Также он ввёл транзакцию как рабочую единицу: когда деньги переходят с одного банковского счёта на другой, это действие должно оставить базу данных банка в очередном состоянии, независимо от успеха транзакции: были ли деньги переведены, или остались на первоначальном счёте. Gray разработал технологию, которая позволяла параллельно выполнять множество транзакций, а также делать перезагрузку после сбоев при сохранении согласованности базы данных. Позже он помогал интегрировать эту технологию в продукты IBM и начал думать о том, как внедрить транзакции в распределенные сети. Он верил, что модель реляционной базы данных и язык SQL будут надёжной основой для онлайн-приложений, но при этом был обеспокоен тем, что клиенты испытывали трудности при сравнении предложений от различных поставщиков аппаратного и программного обеспечения. Тогда он разработал ориентированные на конечных потребителей оценки производительности и помог создать независимую от поставщиков организацию - Совет по эффективности транзакций для контроля за их беспристрастной реализацией. Это привело к сильной конкуренции между поставщиками и улучшению их продукции.</font></p>
+                    <br>
+                    <p><b>Ключевые слова: </b>Database, Transaction processing systems</p>
+                    <br>
+                    <p><b>Краткая библиография</b></p>
+                    <table style="width: 100%" >
+                        <tr>
+                            <td align="right" valign="top" >1.</td>
+                            <td>
+                                <p>Gray, J. N., R. A. Lorie and G. R. Putzolu. "Granularity of locks in a shared data base" In VLDB 1975: Proceedings of the 1st International Conference on Very Large Data Bases, pages 42-451. Association for Computing Machinery, 1975</p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1998_gray/Granularity_of_locks_in_a_shared_data_base.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >2.</td>
+                            <td>
+                                <p>Eswaran, K. P., J. N. Gray, R. A. Lorie, and I. L. Traiger. "The notions of consistency and predicate locks in a database system," Communications of the ACM, Vol.19, Num. 11, pp. 624-633, November 1976. </p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1998_gray/The_notions_of_consistency_and_predicate_locks_in_a_database_system.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >3.</td>
+                            <td>
+                                <p>Jim Gray, Paul McJones, Mike Blasgen, Bruce Lindsay, Raymond Lorie, Tom Price, Franco Putzolu, and Irving Traiger. The recovery manager of the System R database manager. ACM Computing. Surveys, Vol. 13, Num. 2, pp. 223-242, 1981.</p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1998_gray/The_recovery_manager_of_the_System_R_database_manager.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+                <Script language="JavaScript" src="../footer.js"></Script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

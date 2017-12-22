@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Richard M. Karp</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <Script language="JavaScript" src="../header.js"></Script>
+    <div id='buttonL'>
+        <a href="../award_winners/1984_wirth.html">
+            <img src="images/arrowL.png" width="50"/></a></div>
+    <div id='buttonR'>
+        <a href="../award_winners/1986_hopcroft_tarjan.html">
+            <img src="images/arrowR.png" width="50"/></a>
+    </div>
+    <script>
+        function movePage(e){
+            switch(e.keyCode){
+                case 37:
+                    location.href = '../award_winners/1984_wirth.html';
+                    break;
+                case 39:
+                    location.href = '../award_winners/1986_hopcroft_tarjan.html';
+                    break;
+            }
+        }
+        addEventListener("keydown", movePage);
+    </script>
+    <div id="container">
+        <div id="center">
+            <table style="margin-left:10%; width: 80%" >
+                <tr>
+                    <td><img src="images/photos/1985.jpg" width="150"></td>
+                    <td align="left" valign="top">
+                        <p><font color="white" size=5><b>1985 год</b></font></p>
+                        <p><font color="white" size=5><b>Richard M. Karp</b> (1935)</font></p>
+                        <br>
+                        <p align="justify"><font color="white" size=5>«За его продолжительный вклад в теорию алгоритмов, в том числе за разработку эффективных алгоритмов для сетевых потоков и других комбинаторных оптимизационных задач, сопоставление вычислений полиномиальной сложности с интуитивным понятием эффективности, и, самое главное, за вклад в теорию NP-полноты»</font></p>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="container2">
+                <div id="textbody">
+                    <br>
+                    <p><b>Страна: </b>США</p>
+                    <p><b>Образование: </b>Доктор философии в области прикладной математики, Гарвардский университет, 1959</p>
+                    <br>
+                    <p><b>О лауреате</b></p>
+                    <p align="justify"><font >После получения докторской степени, Richard Karp 9 лет работал в IBM Watson Research Center. За это время, он провёл фундаментальную работу над моделями параллельных вычислений, которые включают одновременное использование нескольких координированных компьютеров для решения одной проблемы. После он стал работать в Калифорнийском университете в Беркли, где сфокусировался на эвристических алгоритмах для сложных комбинаторных задач, в частности, Задачи коммивояжёра. В 1971 году Karp, совместно с J. Edmonds, разработал алгоритм для нахождения максимального потока в транспортной сети, названный в их честь. Год спустя, в своей статье “Reducibility Among Combinatorial Problems” он расширил концепцию NP-полноты (которую впервые представил S. Cook в 1971 году), привёл список из 21 NP-полной задачи и доказал, что если любую из них можно было бы решить с помощью эффективного алгоритма, то все остальные задачи могли бы быть эффективно решены. Также его работа по NP полноте существенно мотивировала обсуждение знаменитого нерешенного вопроса о P = NP.</font></p>
+                    <br>
+                    <p><b>Ключевые слова: </b>Edmonds–Karp algorithm, Karp's 21 NP-complete problems</p>
+                    <br>
+                    <p><b>Краткая библиография</b></p>
+                    <table style="width: 100%" >
+                        <tr>
+                            <td align="right" valign="top" >1.</td>
+                            <td>
+                                <p>M. Held and R. M. Karp, "The traveling-salesman problem and minimum spanning trees," Operations Research, vol. 18, no. 6, pp. 1138-1162, Nov. 1970.</p>
+                                <p><b><i>В этой статье рассматриваются новые подходы к симметричной проблеме коммивояжера, в которой важную роль играют деревья, являющиеся вариантом остовных деревьев.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1985_karp/The_traveling-salesman_problem_and_minimum_spanning_trees.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >2.</td>
+                            <td>
+                                <p>J. Edmonds and R. M. Karp, "Theoretical improvements in algorithmic efficiency for network flow problems," Journal of the ACM, vol. 19, no. 2, pp. 248-264, April 1972.</p>
+                                <p><b><i> В этой статье представлены новые алгоритмы для задач о максимальном потоке и поиске минимальной стоимости.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1985_karp/Theoretical_improvements_in_algorithmic_efficiency_for_network_flow_problems.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >3.</td>
+                            <td>
+                                <p>R. M. Karp, "Reducibility among combinatorial problems," in Complexity of Computer Computations: Proceedings of a Symposium on the Complexity of Computer Computations, R. E. Miller and J. W. Thatcher, Eds., The IBM Research Symposia Series, New York, NY: Plenum Press, 1972, pp. 85-103.  </p>
+                                <p><b><i>Эта статья, в которой создана основа для доказательства NP-полных проблем. Также в этой статье был приведён список, состоящий из формулировки и доказательства NP-полноты 21 задачи.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1985_karp/Reducibility_among_combinatorial_problems.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+                <Script language="JavaScript" src="../footer.js"></Script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

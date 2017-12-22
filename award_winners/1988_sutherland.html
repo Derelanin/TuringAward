@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ivan E. Sutherland</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <Script language="JavaScript" src="../header.js"></Script>
+    <div id='buttonL'>
+        <a href="../award_winners/1987_cocke.html">
+            <img src="images/arrowL.png" width="50"/></a></div>
+    <div id='buttonR'>
+        <a href="../award_winners/1989_kahan.html">
+            <img src="images/arrowR.png" width="50"/></a>
+    </div>
+    <script>
+        function movePage(e){
+            switch(e.keyCode){
+                case 37:
+                    location.href = '../award_winners/1987_cocke.html';
+                    break;
+                case 39:
+                    location.href = '../award_winners/1989_kahan.html';
+                    break;
+            }
+        }
+        addEventListener("keydown", movePage);
+    </script>
+    <div id="container">
+        <div id="center">
+            <table style="margin-left:10%; width: 80%" >
+                <tr>
+                    <td><img src="images/photos/1988.jpg" width="150"></td>
+                    <td align="left" valign="top">
+                        <p><font color="white" size=5><b>1988 год</b></font></p>
+                        <p><font color="white" size=5><b>Ivan E. Sutherland</b> (1938)</font></p>
+                        <br>
+                        <p align="justify"><font color="white" size=5>«За его пионерский и дальновидный вклад в компьютерную графику, начиная от изобретения Sketchpad, но не заканчивающегося им»</font></p>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="container2">
+                <div id="textbody">
+                    <br>
+                    <p><b>Страна: </b>США</p>
+                    <p><b>Образование: </b>Доктор философии в области электротехники, MIT, 1950</p>
+                    <br>
+                    <p><b>О лауреате</b></p>
+                    <p align="justify"><font >Sutherland в своей докторской диссертации “Sketchpad: A Man-machine Graphical Communications System” описал первый компьютерный графический пользовательский интерфейс (GUI). Sketchpad был разработан на уникальном компьютере TX-2, который спроектировал W. Clark. TX-2 был компьютером, используемым для исследования поверхностно-барьерных транзисторов для цифровых схем, имевший множество устройств ввода и вывода. Программного обеспечения у него практически ничего было – у него даже отсутствовала операционная система. Но у него было световое перо, которое Sutherland применил по-новому, позволив пользователю рисовать непосредственно на дисплее компьютера. Нарисованные примитивные объекты можно было поворачивать, масштабировать и перемещать. Готовые чертежи могли быть сохранены на магнитной ленте и отредактированы позднее. Sketchpad реализовал важные инновации, в том числе иерархические структуры памяти для организации объектов, возможность увеличения и уменьшения масштаба и интерактивный графический интерфейс. С 1965 по 1968 год Sutherland работал в Гарвардском университете. Он и его студент, B. Sproull, создали то, что считается первым шлемом виртуальной реальности и дополненной реальности в 1968 году, из-за своего веса он подвешивался к потолку над головой пользователя за что и получил название «Дамоклов меч». Другой его студент, D. Cohen, был первым кто запустил симуляцию полёта через ARPANet, а позже их совместная работа привела к разработке алгоритма Cohen–Sutherland, позволяющего эффективно находить отрезки прямых, находящихся внутри прямоугольника. </font></p>
+                    <br>
+                    <p><b>Ключевые слова: </b>Sketchpad, Computer Graphics, Cohen–Sutherland algorithm</p>
+                    <br>
+                    <p><b>Краткая библиография</b></p>
+                    <table style="width: 100%" >
+                        <tr>
+                            <td align="right" valign="top" >1.</td>
+                            <td>
+                                <p>Sutherland, Ivan E., “Sketchpad: A Man-Machine Graphical Communication System,” AFIPS Conference Proceedings, Volume 23, Spring Joint Computer Conference, pp. 329-346, 1963.</p>
+                                <p><b><i>В этой статье говориться о работе, породившей компьютерную графику, которая позволила человеку взаимодействовать с чертежами посредством рисования линий.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1988_sutherland/Sketchpad_A_Man-Machine_Graphical_Communication_System.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >2.</td>
+                            <td>
+                                <p>Sutherland, Ivan E., A Head-Mounted, Three-Dimensional Display,” AFIPS Proceedings of the Fall Joint Computer Conference, Part I, pp. 757-764, 1968.</p>
+                                <p><b><i>В статье описывается 3D-дисплей, который показывает пользователю изображение, меняющееся в движении.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1988_sutherland/A_Head-Mounted_Three-Dimensional_Display.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >3.</td>
+                            <td>
+                                <p>Sutherland, Ivan E., “A Characterization of Ten Hidden-Surface Algorithms,” Computing Surveys, Volume 6, Number 1, pp. 1-55, March, 1974</p>
+                                <p><b><i>В этой статье рассматривается проблема скрытых поверхностей с точки зрения сортировки.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1988_sutherland/A_Characterization_of_Ten-Hidden-Surface_Algorithms.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+                <Script language="JavaScript" src="../footer.js"></Script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>William Kahan</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <Script language="JavaScript" src="../header.js"></Script>
+    <div id='buttonL'>
+        <a href="../award_winners/1988_sutherland.html">
+            <img src="images/arrowL.png" width="50"/></a></div>
+    <div id='buttonR'>
+        <a href="../award_winners/1990_corbato.html">
+            <img src="images/arrowR.png" width="50"/></a>
+    </div>
+    <script>
+        function movePage(e){
+            switch(e.keyCode){
+                case 37:
+                    location.href = '../award_winners/1988_sutherland.html';
+                    break;
+                case 39:
+                    location.href = '../award_winners/1990_corbato.html';
+                    break;
+            }
+        }
+        addEventListener("keydown", movePage);
+    </script>
+    <div id="container">
+        <div id="center">
+            <table style="margin-left:10%; width: 80%" >
+                <tr>
+                    <td><img src="images/photos/1989.jpg" width="150"></td>
+                    <td align="left" valign="top">
+                        <p><font color="white" size=5><b>1989 год</b></font></p>
+                        <p><font color="white" size=5><b>William Kahan</b> (1933)</font></p>
+                        <br>
+                        <p align="justify"><font color="white" size=5>«За его фундаментальный вклад в численный анализ. Один из первых экспертов в вычислениях с плавающей запятой. Kahan также посвятил себя задаче “сделать мир безопасным для численных расчётов”»</font></p>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="container2">
+                <div id="textbody">
+                    <br>
+                    <p><b>Страна: </b>Канада</p>
+                    <p><b>Образование: </b>Доктор философии в области математики, Университет Торонто, 1958</p>
+                    <br>
+                    <p><b>О лауреате</b></p>
+                    <p align="justify"><font >Kahan начал программировать в 1953 году на одном из первых коммерческих компьютеров FERUT в университете Торонто, тогда он занимался численным анализом и изучал новые возможности, которые могли предоставить компьютеры прикладной математике. В 1960 году усилия Kahan сосредоточились на анализе ошибок численных вычислений. Для него это было не просто определением точности полученных результатов, но и разработка нового программного обеспечения и особенностей архитектуры для повышения точности вычислений при сохранении высокой производительности. Численный анализ находится на пересечении вычислений и прикладной математики и влияние Kahan на эти области сложно переоценить. В течение длительных отношений с Intel, он разработал дизайн арифметики с плавающей точкой на нескольких чипах, начиная с 8087, выпущенного в 1980 году, до 80387 и 486DX. Когда Intel переработала реализацию вычислений с плавающей запятой в процессорах Pentium, запущенных в 1994 году, в них обнаружилась ошибка, ставшая известной, как FDIV-bug и Kahan, разработал тестовую программу, чтобы предупредить появление таких ошибок в дальнейшем. Его называют «Отцом плавающей точки» за его заслуги, ведь был главным разработчиком стандарта IEEE 754 для вычислений с плавающей точкой (и его последователем IEEE 854).</font></p>
+                    <br>
+                    <p><b>Ключевые слова: </b>IEEE 754, Kahan summation algorithm</p>
+                    <br>
+                    <p><b>Краткая библиография</b></p>
+                    <table style="width: 100%" >
+                        <tr>
+                            <td align="right" valign="top" >1.</td>
+                            <td>
+                                <p>Golub, Gene and William M. Kahan, "Calculating the singular values and pseudo-inverse of a matrix," Journal of the Society for Industrial and Applied Mathematics, Series B: Numerical. Analysis, Vol. 2, 1965, pp. 205–224. </p>
+                                <p><b><i>Эта статья заложила основу для практического применения Singular Value Decomposition (SVD), широко используемого подхода к факторизации матриц, нашедшего применение в статистическом анализе и технических расчётах. Одна из важнейших статей в истории численного анализа.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1989_kahan/Calculating_the_singular_values_and_pseudo-inverse_of_a_matrix.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >2.</td>
+                            <td>
+                                <p>Demmel, James and William M. Kahan, "Accurate singular values of bidiagonal matrices," SIAM Journal on Scientific and Statistical Computing, Vol. 11, Num. 5, September 1990, pp. 873-912. </p>
+                                <p><b><i>Demmel был одним из докторантов Kahan, а также профессором в Беркли. В этой статье расширяется применение Singular Value Decomposition новым алгоритмом.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1989_kahan/Accurate_singular_values_of_bidiagonal_matrices.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >3.</td>
+                            <td>
+                                <p>Kahan William, The John von Neumann lecture: The baleful effect of computer languages and benchmarks upon applied mathematics, physics and chemistry, 45th Annual Meeting of SIAM, Stanford University, 15 July 1997.</p>
+                                <p><b><i>Лекция обращает внимание на недостатки некоторых популярных языков и методов, умоляет о сохранении актуальности наиболее часто игнорируемых особенностей стандарта IEEE 754 и призывает к разработке новых тестов для измерения точности и скорости.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1989_kahan/The_John_von_Neumann_lecture.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+                <Script language="JavaScript" src="../footer.js"></Script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

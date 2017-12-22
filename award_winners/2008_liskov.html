@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Barbara Liskov</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <Script language="JavaScript" src="../header.js"></Script>
+    <div id='buttonL'>
+        <a href="../award_winners/2007_clarke_emerson_sifakis.html">
+            <img src="images/arrowL.png" width="50"/></a></div>
+    <div id='buttonR'>
+        <a href="../award_winners/2009_thacker.html">
+            <img src="images/arrowR.png" width="50"/></a>
+    </div>
+    <script>
+        function movePage(e){
+            switch(e.keyCode){
+                case 37:
+                    location.href = '../award_winners/2007_clarke_emerson_sifakis.html';
+                    break;
+                case 39:
+                    location.href = '../award_winners/2009_thacker.html';
+                    break;
+            }
+        }
+        addEventListener("keydown", movePage);
+    </script>
+    <div id="container">
+        <div id="center">
+            <table style="margin-left:10%; width: 80%" >
+                <tr>
+                    <td><img src="images/photos/2008.jpg" width="150"></td>
+                    <td align="left" valign="top">
+                        <p><font color="white" size=5><b>2008 год</b></font></p>
+                        <p><font color="white" size=5><b>Barbara Liskov</b> (1939)</font></p>
+                        <br>
+                        <p align="justify"><font color="white" size=5>«За вклад в практические и теоретические основы языков программирования и системного дизайна, в частности в области исследований устойчивости к ошибкам, абстракции данных и распределённых вычислений»</font></p>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="container2">
+                <div id="textbody">
+                    <br>
+                    <p><b>Страна: </b>США</p>
+                    <p><b>Образование: </b>Доктор философии по информатике, Стэнфордский университет, 1968</p>
+                    <br>
+                    <p><b>О лауреате</b></p>
+                    <p align="justify"><font >После получения докторской степени Liskov начала работу на корпорацию Mitre над проектированием компьютеров и операционными системами. Используя компьютер Interdata 3, который позволял менять набор инструкций с помощью микрокода, она создала «Компьютер Venus» спроектированный для разработки сложного ПО. ОС Venus была маленькой системой с разделением времени, поддерживающей до 16 пользователей, каждый из которых присоединялся к виртуальной машине и даже серьёзные ошибки не могли повлиять на стабильность системы в целом. С 1971 года она возглавила проект разработки языка CLU который использовал объектно-ориентированную модель, абстракцию данных и полиморфизм. Продолжая идеи CLU был разработан язык Argus, который был призван упростить разработку распределённых по сети программ. Для этой же задачи ею была разработана и реализована объектно-ориентированная система баз данных Thor, которая позволяла программам, написанным на разных языках, взаимодействовать с общими объектами удобным способом. В 1987 году Liscov предложила принцип замещения, который гласит, что функции, которые используют базовый тип, должны иметь возможность использовать подтипы базового типа, не зная об этом.</font></p>
+                    <br>
+                    <p><b>Ключевые слова: </b>Venus (OS), CLU, Argus, Thor, Liscov Substitution Principle</p>
+                    <br>
+                    <p><b>Краткая библиография</b></p>
+                    <table style="width: 100%" >
+                        <tr>
+                            <td align="right" valign="top" >1.</td>
+                            <td>
+                                <p>Liskov, Barbara Jane, “The Design of the Venus Operating System,” Communications of the ACM, Vol. 15, Num. 3, 1972, pp. 144-149. </p>
+                                <p><b><i>Описывает ОС Venus и некоторые результаты экспериментов с ней.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" ></td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >2.</td>
+                            <td>
+                                <p>Liskov, Barbara Jane, Alan Snyder, Russell R. Atkinson and Craig Schaffert, “Mechanisms for abstraction in the very high level language for structured programming, CLU,” Communications of the ACM, Vol. 20, Num. 8, 1977, pp. 564-576. </p>
+                                <p><b><i>Статья описывает механизмы абстракции в CLU.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" ></td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >3.</td>
+                            <td>
+                                <p>Liskov, Barbara Jane and Stephen N. Zilles, “Programming with Abstract Data Types,” SIGPLAN Notices, Vol. 9, Num. 4, 1974, pp. 50-59.</p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/2008_liskov/Programming_with_Abstract_Data_Types.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >4.</td>
+                            <td>
+                                <p>Liskov, Barbara Jane, “Distributed Programming in Argus,” Communications of the ACM, Vol. 31, Num. 3, 1988, pp. 300-312.  </p>
+                                <p><b><i>Рассказывает, как механизмы Argus решают проблемы, такие, как сегментация сети и выход из строя удалённого узла.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" ></td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >5.</td>
+                            <td>
+                                <p>Liskov, Barbara Jane, “Practical Uses of Synchronized Clocks in Distributed Systems,” Distributed Computing, Vol. 6, August 1993, pp. 211-219</p>
+                                <p><b><i>Об улучшении производительности распределённых систем путём синхронизации их часов.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" ></td>-->
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+                <Script language="JavaScript" src="../footer.js"></Script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

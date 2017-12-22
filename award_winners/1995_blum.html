@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manuel Blum</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <Script language="JavaScript" src="../header.js"></Script>
+    <div id='buttonL'>
+        <a href="../award_winners/1994_feigenbaum_reddy.html">
+            <img src="images/arrowL.png" width="50"/></a></div>
+    <div id='buttonR'>
+        <a href="../award_winners/1996_pnueli.html">
+            <img src="images/arrowR.png" width="50"/></a>
+    </div>
+    <script>
+        function movePage(e){
+            switch(e.keyCode){
+                case 37:
+                    location.href = '../award_winners/1994_feigenbaum_reddy.html';
+                    break;
+                case 39:
+                    location.href = '../award_winners/1996_pnueli.html';
+                    break;
+            }
+        }
+        addEventListener("keydown", movePage);
+    </script>
+    <div id="container">
+        <div id="center">
+            <table style="margin-left:10%; width: 80%" >
+                <tr>
+                    <td><img src="images/photos/1995.jpg" width="150"></td>
+                    <td align="left" valign="top">
+                        <p><font color="white" size=5><b>1995 год</b></font></p>
+                        <p><font color="white" size=5><b>Manuel Blum</b> (1938)</font></p>
+                        <br>
+                        <p align="justify"><font color="white" size=5>«В дань его работам по основаниям теории сложности вычислений и её применению к криптографии и верификации программ»</font></p>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="container2">
+                <div id="textbody">
+                    <br>
+                    <p><b>Страна: </b>США</p>
+                    <p><b>Образование: </b>Доктор философии в области математики, MIT, 1964</p>
+                    <br>
+                    <p><b>О лауреате</b></p>
+                    <p align="justify"><font >В своей докторской диссертации в MIT Manuel Blum разработал машинно-независимую теорию сложности, которая лежит в основе всех возможных исследований сложности. Он предположил, что ресурс - это любая функция, которая имеет два основных свойства (Blum complexity axioms), заявив, что сумма ресурса, затраченного программой, запущенной на конкретном входе, может быть вычислена – однако, если вычисление остановится, то в этом случае она не будет определена. Эти аксиомы привели к богатой теории, полной неожиданных результатов. Одним из них является Blum's speedup theorem, в которой указывается, что существует такая функция, что любой алгоритм для этой неё может экспоненциально ускоряться почти для всех входных данных. То есть любой алгоритм для этой функции может быть изменён, чтобы работать экспоненциально быстрее, но затем новый алгоритм может быть снова изменен и так далее. Позднее появилось новое применение для теории сложности: криптография с открытым ключом, которая обеспечивает безопасную связь посредством использования однонаправленных функций, которые легко вычислить, но трудно обратить. Но, вероятно, самое известное применение теории сложности, с которым связан Blum, связано со случайностью. А именно, с генераторами псевдослучайных чисел. Его идея заключалась в том, что степень псевдослучайности числа кроется в вычислительной сложности. Отличие вывода хорошего генератора от случайной последовательности казалось тогда неразрешимой проблемой. В 1984 году Blum и его ученик S. Micali придумали генератор, основанный на задаче дискретного логарифмирования. А позднее, вместе с L. Blum и M. Shub, обнаружили ещё один генератор, использовавший повторное возведение в квадрат по модулю произведения двух больших простых чисел.</font></p>
+                    <br>
+                    <p><b>Ключевые слова: </b>Blum complexity axioms, Blum's speedup theorem, Blum Blum Shub, Blum-Goldwasser cryptosystem</p>
+                    <br>
+                    <p><b>Краткая библиография</b></p>
+                    <table style="width: 100%" >
+                        <tr>
+                            <td align="right" valign="top" >1.</td>
+                            <td>
+                                <p>Blum, M., "A Machine-Independent Theory of the Complexity of Recursive Functions," Journal of the ACM, Vol. XIV, No. 2, Apri11967, pp. 322-336.</p>
+                            </td>
+                            <!--<td align="right" valign="top" ></td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >2.</td>
+                            <td>
+                                <p>Blum, M. and S. Micali, "How to Generate Cryptographically Strong Sequences of Pseudo Random Bits," SIAM Journal on Computing, Vol. 13, No.4, November 1984, pp. 850-864.</p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1995_blum/How_to_Generate_Cryptographically_Strong_Sequences_of_Pseudo_Random_Bits.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >3.</td>
+                            <td>
+                                <p>Blum, M., L. Blum and M. Shub, "A Simple Unpredictable Pseudo-Random Number Generator," SIAM Journal on Computing, Vol. 15, No.2, May 1986, pp. 364-382</p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1995_blum/A_Simple_Unpredictable_Pseudo-Random_Number_Generator.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+                <Script language="JavaScript" src="../footer.js"></Script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

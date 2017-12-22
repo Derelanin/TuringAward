@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amir Pnueli</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <Script language="JavaScript" src="../header.js"></Script>
+    <div id='buttonL'>
+        <a href="../award_winners/1995_blum.html">
+            <img src="images/arrowL.png" width="50"/></a></div>
+    <div id='buttonR'>
+        <a href="../award_winners/1997_engelbart.html">
+            <img src="images/arrowR.png" width="50"/></a>
+    </div>
+    <script>
+        function movePage(e){
+            switch(e.keyCode){
+                case 37:
+                    location.href = '../award_winners/1995_blum.html';
+                    break;
+                case 39:
+                    location.href = '../award_winners/1997_engelbart.html';
+                    break;
+            }
+        }
+        addEventListener("keydown", movePage);
+    </script>
+    <div id="container">
+        <div id="center">
+            <table style="margin-left:10%; width: 80%" >
+                <tr>
+                    <td><img src="images/photos/1996.jpg" width="150"></td>
+                    <td align="left" valign="top">
+                        <p><font color="white" size=5><b>1996 год</b></font></p>
+                        <p><font color="white" size=5><b>Amir Pnueli</b> (1941-2009)</font></p>
+                        <br>
+                        <p align="justify"><font color="white" size=5>«За основополагающую работу, вводящую темпоральную логику в информатику и за выдающийся вклад в верификацию программ и систем» </font></p>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="container2">
+                <div id="textbody">
+                    <br>
+                    <p><b>Страна: </b>Израиль</p>
+                    <p><b>Образование: </b>Доктор философии в области прикладной математики, Научно-исследовательский институт им. Вейцмана, 1967</p>
+                    <br>
+                    <p><b>О лауреате</b></p>
+                    <p align="justify"><font >В 1962 году, во время своего обучения, Pnueli представилась возможность работать на первом в Израиле компьютере WEIZAC – с этого началась его любовь к компьютерам. В 1967 и 1968 годах, после получения степени доктора философии за диссертацию «Calculation of Tides in the Ocean», он работал в Стэнфордском Университете и исследовательском центре IBM, где начал плодотворно сотрудничать с Z. Manna в новой тогда сфере, известной как формальные методы. Его первая работа исследовала формализацию рекурсивных функций и функциональных программ. Во время праздника в Университете Пенсильвании он познакомился с работой философа A. Prior, который разработал «временную логику» для оценки высказываний, чья правдивость меняется со временем. Pnueli первым осознал потенциальную пользу применения работы Prior в компьютерных программах. В то время проверка программ была сосредоточена на программах, которые получают входные данные в начале вычислений и производят вывод в конце («трансформационные»), а основные методы исследований рассматривали все возможные пары состояний программы. Pnueli ввёл концепцию рассуждений о программах как о путях исполнения, которая вдохнула новую жизнь в область верификации программ. В своей оригинальной работе Pnueli рассматривает верификацию программ (позже называемых «реактивными»), которые взаимодействуют с их окружающей средой и не обязательно заканчиваются, например, параллельные вычисления или операционные системы.</font></p>
+                    <br>
+                    <p><b>Ключевые слова: </b>Temporal logic, Verification, Model checking</p>
+                    <br>
+                    <p><b>Краткая библиография</b></p>
+                    <table style="width: 100%" >
+                        <tr>
+                            <td align="right" valign="top" >1.</td>
+                            <td>
+                                <p>Pnueli, A., “The Temporal Logic of Programs,” Proceedings of the 18th annual symposium on Foundations of Computer Science, pp. 46-57, 1977.</p>
+                                <p><b><i>Эта статья произвела революцию в анализе компьютерных программ. Линейная темпоральная логика предлагалась, как единый подход для описаний трансформационных и рекативных систем. Также в статье описана алгоритм проверки моделей программ с конечным числом состояний.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1996_pnueli/The_Temporal_Logic_of_Programs.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >2.</td>
+                            <td>
+                                <p>Ben-Ari, M., A. Pnueli and Z. Manna, “The Temporal Logic of Branching Time,” Acta Informatica, Vol. 20, Num. 3, pp. 207-226, 1983</p>
+                                <p><b><i>В этой статье представлена ветвящаяся темпоральная логика, предоставляющая первый практичный алгоритм проверки моделей на логику и простую аксиомизацию.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" ></td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >3.</td>
+                            <td>
+                                <p>Pnueli,A., “Applications of Temporal Logic to the Specification and Verification of Reactive Systems: A survey of Current Trends,” in “Current Trends in Concurrency,” Lecture Notes in Computer Science, Vol. 224, pp. 510-584, 1986. </p>
+                                <p><b><i>В работе представлен обзор исследований Pnueli и его коллег по применению темпоральной логики для спецификации и верификации реактивных систем и представлены многочисленные примеры.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" ></td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >4.</td>
+                            <td>
+                                <p>Pnueli, A., “The Temporal Semantics of Concurrent Programs,” Theoretical Computer Science, Vol. 13, Num. 1, pp. 45-60, 1981.</p>
+                                <p><b><i>Статья описывает, как найти темпоральную формулу, описывающую систему и получить доказательства, что система удовлетворяет спецификации темпоральной логики.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1996_pnueli/The_Temporal_Semantics_of_Concurrent_Programs.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+                <Script language="JavaScript" src="../footer.js"></Script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

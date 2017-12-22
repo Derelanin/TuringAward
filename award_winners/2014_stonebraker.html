@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Michael Stonebraker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <Script language="JavaScript" src="../header.js"></Script>
+    <div id='buttonL'>
+        <a href="../award_winners/2013_lamport.html">
+            <img src="images/arrowL.png" width="50"/></a></div>
+    <div id='buttonR'>
+        <a href="../award_winners/2015_diffie_hellman.html">
+            <img src="images/arrowR.png" width="50"/></a>
+    </div>
+    <script>
+        function movePage(e){
+            switch(e.keyCode){
+                case 37:
+                    location.href = '../award_winners/2013_lamport.html';
+                    break;
+                case 39:
+                    location.href = '../award_winners/2015_diffie_hellman.html';
+                    break;
+            }
+        }
+        addEventListener("keydown", movePage);
+    </script>
+    <div id="container">
+        <div id="center">
+            <table style="margin-left:10%; width: 80%" >
+                <tr>
+                    <td><img src="images/photos/2014.jpg" width="150"></td>
+                    <td align="left" valign="top">
+                        <p><font color="white" size=5><b>2014 год</b></font></p>
+                        <p><font color="white" size=5><b>Michael Stonebraker</b> (1943)</font></p>
+                        <br>
+                        <p align="justify"><font color="white" size=5>«За фундаментальный вклад в принципы и практики, лежащие в основаниях современных систем управления базами данных»</font></p>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="container2">
+                <div id="textbody">
+                    <br>
+                    <p><b>Страна: </b>США</p>
+                    <p><b>Образование: </b>Доктор философии в области информатики и вычислительной техники, Университет Мичигана, 1971</p>
+                    <br>
+                    <p><b>О лауреате</b></p>
+                    <p align="justify"><font >В 1973 году Stonebraker совместно с E. Wong занялся исследованием возможности построения реляционных баз данных на основе идей E. Codd. В рамках этих исследований была спроектирована и реализована система управления базами данных INGRES, которая отмечается как первая система, в которой были предложены такие ставшие стандартами возможности, как декларативная ссылочная целостность, триггеры, представления, индексы на основе B-деревьев. В течение следующего десятилетия INGRES и системы, созданные им, создали новый коммерческий рынок реляционных систем баз данных. В 1986 Stonebraker инициировал новый проект системы управления базами данных, поддерживающей наряду с реляционной моделью данных принципы объектно-ориентированного программирования - Postgres, который также использовался для экспериментов с другими особенностями, представляющими интерес для исследователей баз данных. Данный проект отмечается как первая практически реализованная объектно-ориентированная СУБД. Впоследствии код Postgres послужил основой для известной свободно распространяемой СУБД PostgreSQL.</font></p>
+                    <br>
+                    <p><b>Ключевые слова: </b>INGRES, Postgres, Vertica, Streambase, Illustra, VoltDB, SciDB</p>
+                    <br>
+                    <p><b>Краткая библиография</b></p>
+                    <table style="width: 100%" >
+                        <tr>
+                            <td align="right" valign="top" >1.</td>
+                            <td>
+                                <p>Michael Stonebraker, "Implementation of integrity constraints and views by query modification," SIGMOD 1975, p.65-78. </p>
+                                <p><b><i>Описывает модификацию запроса, метод, используемый INGRES и более поздними поколениями систем управления базами данных для эффективного внедрения правил целостности данных и виртуальных «представлений», объединяющих данные из нескольких таблиц.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" ></td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >2.</td>
+                            <td>
+                                <p>Michael Stonebraker, Eugene Wong, Peter Kreps, Gerald Held, “The Design and Implementation of INGRES,” TODS 1(3), p189-222 (1976). </p>
+                                <p><b><i>Статья, описывающая раннюю версию INGRES, объясняющую ключевые проектные решения и документирующий подход, применяемый к реализации.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/2014_stonebraker/The_Design_and_Implementation_of_INGRES.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >3.</td>
+                            <td>
+                                <p>Michael Stonebraker, Greg Kemnitz, “The Postgres Next Generation Database Management System,” CACM 34(10), p78-92 (1991). </p>
+                                <p><b><i>Описывает Postgres, влиятельный подход Stonebraker к INGRES.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/2014_stonebraker/The_Postgres_Next_Generation_Database_Management_System.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >4.</td>
+                            <td>
+                                <p>Michael Stonebraker, Dorothy Moore, Object Relational DBMSs: The Next Great Wave (Morgan Kaufman, 1995). </p>
+                                <p><b><i>В этой статье Stonebraker утверждал, что расширение традиционных систем управления реляционными базами данных с возможностью обработки более сложных типов данных, как это было с Postgres, было лучшим решением, чем переходом на совершенно новую модель.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/2014_stonebraker/Object_Relational_DBMSs_The_Next_Great_Wave.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+                <Script language="JavaScript" src="../footer.js"></Script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leslie Lamport</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <Script language="JavaScript" src="../header.js"></Script>
+    <div id='buttonL'>
+        <a href="../award_winners/2012_micali_goldwasser.html">
+            <img src="images/arrowL.png" width="50"/></a></div>
+    <div id='buttonR'>
+        <a href="../award_winners/2014_stonebraker.html">
+            <img src="images/arrowR.png" width="50"/></a>
+    </div>
+    <script>
+        function movePage(e){
+            switch(e.keyCode){
+                case 37:
+                    location.href = '../award_winners/2012_micali_goldwasser.html';
+                    break;
+                case 39:
+                    location.href = '../award_winners/2014_stonebraker.html';
+                    break;
+            }
+        }
+        addEventListener("keydown", movePage);
+    </script>
+    <div id="container">
+        <div id="center">
+            <table style="margin-left:10%; width: 80%" >
+                <tr>
+                    <td><img src="images/photos/2013.jpg" width="150"></td>
+                    <td align="left" valign="top">
+                        <p><font color="white" size=5><b>2013 год</b></font></p>
+                        <p><font color="white" size=5><b>Leslie Lamport</b> (1941)</font></p>
+                        <br>
+                        <p align="justify"><font color="white" size=5>«За фундаментальный вклад в теорию и практику распределённых и взаимодействующих систем, отмеченный открытием таких понятий, как причинность и логические часы, безопасность и живучесть, реплицируемые автоматы, последовательная согласованность данных»</font></p>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="container2">
+                <div id="textbody">
+                    <br>
+                    <p><b>Страна: </b>США</p>
+                    <p><b>Образование: </b>Доктор философии в области математики, Брандейский университет, 1972</p>
+                    <br>
+                    <p><b>О лауреате</b></p>
+                    <p align="justify"><font >Lamport оказал огромное влияние на то, как мы думаем о распределенной системе, а также на технические практики в этой области. Многие понимали, что глобальное понятие времени не является естественным для распределенной системы. В своей книге “Time, Clocks, and the Ordering of Events in a Distributed System” Lamport первым сделал точное описание «логических часов» - механизма определения хронологической и причинно-следственной связи событий в распределённых системах, не имеющих единых физических часов. Использование упорядочения событий как способа проверки правильности системы - это в основном то, что люди делают сегодня для интуитивных доказательств параллельности алгоритмов синхронизации. Другим важным вкладом в эту работу была демонстрация того, как реплицировать конечный автомат с использованием логических часов. В этой книге была представлена модель репликации машинного механизма. Lamport понял, что сложная задача репликации события на нескольких компьютерах может быть сделана удивительно простой, если представить одну и ту же последовательность команд ввода для всех реплик, и тогда они пройдут через идентичную последовательность состояний. Эта концепция лежит в основе многих надежных систем и считается стандартным подходом для создания реплицированных распределенных систем благодаря своей элегантности.</font></p>
+                    <br>
+                    <p><b>Ключевые слова: </b>LaTeX, Sequential consistency, Lamport's bakery algorithm</p>
+                    <br>
+                    <p><b>Краткая библиография</b></p>
+                    <table style="width: 100%" >
+                        <tr>
+                            <td align="right" valign="top" >1.</td>
+                            <td>
+                                <p>L. Lamport, "A New Solution of Dijkstra's Concurrent Programming Problem" Communications of the ACM, vol. 18, no. 8, pp. 453-455, August 1974.</p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/2013_lamport/A_New_Solution_of_Dijkstra's_Concurrent_Programming_Problem.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >2.</td>
+                            <td>
+                                <p>L. Lamport, "How to Make a Multiprocessor Computer That Correctly Executes Multiprocess Programs" IEEE Transactions on Computers, Vols. C-28, no. 9, pp. 690-691, 1979. </p>
+                                <p><b><i>Статья о кешировании памяти и когерентности кэша.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/2013_lamport/How_to_Make_a_Multiprocessor_Computer_That_Correctly_Executes_Multiprocess_Programs.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >3.</td>
+                            <td>
+                                <p>L. Lamport, "On Interprocess Communication, parts I and II" Distributed Computing, vol. 1, no. 2, pp. 77-101, 1986.</p>
+                            </td>
+                            <!--<td align="right" valign="top" ></td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >4.</td>
+                            <td>
+                                <p>L. Lamport, "Time, Clocks, and the Ordering of Events in a Distributed System" Communications of the ACM, vol. 21, no. 7, pp. 558-565, July 1978</p>
+                                <p><b><i>В этой книге рассматривается концепция одного события, происходящего перед другим в распределенной системе, и показано, как определяется частичный порядок событий.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/2013_lamport/Time_Clocks_and_the_Ordering_of_Events_in_a_Distributed_System.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >5.</td>
+                            <td>
+                                <p>L. Lamport and M. Chandy, "Distributed Snapshots: Determining Global States of a Distributed System" ACM Transactions on Computer Systems, vol. 3, no. 1, pp. 63-75, Feburary 1985.</p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/2013_lamport/Distributed_Snapshots_Determining_Global_States_of_a_Distributed_System.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+                <Script language="JavaScript" src="../footer.js"></Script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

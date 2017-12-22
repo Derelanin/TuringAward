@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Robin Milner</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <Script language="JavaScript" src="../header.js"></Script>
+    <div id='buttonL'>
+        <a href="../award_winners/1990_corbato.html">
+            <img src="images/arrowL.png" width="50"/></a></div>
+    <div id='buttonR'>
+        <a href="../award_winners/1992_lampson.html">
+            <img src="images/arrowR.png" width="50"/></a>
+    </div>
+    <script>
+        function movePage(e){
+            switch(e.keyCode){
+                case 37:
+                    location.href = '../award_winners/1990_corbato.html';
+                    break;
+                case 39:
+                    location.href = '../award_winners/1992_lampson.html';
+                    break;
+            }
+        }
+        addEventListener("keydown", movePage);
+    </script>
+    <div id="container">
+        <div id="center">
+            <table style="margin-left:10%; width: 80%" >
+                <tr>
+                    <td><img src="images/photos/1991.jpg" width="150"></td>
+                    <td align="left" valign="top">
+                        <p><font color="white" size=5><b>1991 год</b></font></p>
+                        <p><font color="white" size=5><b>Robin Milner</b> (1934-2010)</font></p>
+                        <br>
+                        <p align="justify"><font color="white" size=5>«За три различных полноценных достижения: 1) LCF, автоматизирующий доказательства в логике вычислимых функций Скотта, по-видимому первый, инструмент автоматизированного конструирования доказательств, построенный на теоретическом фундаменте и при этом полезный на практике; 2) ML, первый язык программирования использующий полиморфный вывод типов вместе с типизированным механизмом обработкой ошибок; 3) CCS, общая теория параллельных вычислений. Вдобавок, он сформулировал и развил полную абстракцию, теорию о связи между операционной и денотационной семантиками»</font></p>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="container2">
+                <div id="textbody">
+                    <br>
+                    <p><b>Страна: Великобритания</b></p>
+                    <p><b>Образование: </b>Магистр науки в области математики, Кембриджский университет, 1957</p>
+                    <br>
+                    <p><b>О лауреате</b></p>
+                    <p align="justify"><font >Milner посещал лекции C. Strachey и D. Scott в Оксфорде, которые рассказывали о вычислимых функционалах, денотационной семантике и о логике вычислимых функционалов (LCF) для рассуждения об объектах «обозначения». Позднее он написал свою первую программу для автоматических доказательств теорем. Затем он был приглашён в Стэнфорд где работал над проектом по искусственному интеллекту. Milner был заинтересован в том, как человеческий интеллект может быть «расширен», нежели тем, что искусственный интеллект может достичь самостоятельно. Он считал, что машины могут помочь людям применить подход Scott-Strachey к денотационной семантике к практическим примерам. И он начал работу по внедрению LCF, включавшем средство подцели, которое позволяло пользователю разделить поиск доказательства на поиск меньших подпрограмм, при этом машина следила за тем, как объединить части доказательства. Он также включал мощный механизм упрощения, который позволил машине взять на себя работу по выполнению общих вычислений. Milner был недоволен трудностью использования языков программирования того времени, в связи с чем он разработал новый метаязык (ML) для внедрения нового механизма - Edinburgh LCF. ML опередил своё время. Он был построен на чистых и хорошо сформулированных математических идеях, а также оказал влияние на многие практические языки. Milner написал книгу «Calculus of Communicating Systems», в которой появилась «общая теория параллельности». После публикации CCS Milner узнал о концепции D. Park о «бисимуляции», из-за чего он полностью переработал свою теорию. Сам CCS был изменен несущественно, но вся теория, в частности отношение к наблюдаемой эквивалентности, стала более элегантна и менее произвольна.</font></p>
+                    <br>
+                    <p><b>Ключевые слова: </b>LCF, ML, CCS, Pi-calculus, Hindley-Milner type inference</p>
+                    <br>
+                    <p><b>Краткая библиография</b></p>
+                    <table style="width: 100%" >
+                        <tr>
+                            <td align="right" valign="top" >1.</td>
+                            <td>
+                                <p>Gordon, Michael J., Arthur J. R. Milner and Christopher P. Wadsworth, Edinburgh LCF; a Mechanized Logic of Computation, Lecture Notes in Computer Science, Vol. 78, Springer, December 1, 1979.</p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1991_milner/A_Mechanized_Logic_of_Computation.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >2.</td>
+                            <td>
+                                <p>Milner, R., A Calculus for Communicating Systems, Lecture Notes in Computer Science, Vol. 92, Springer, 1980. </p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1991_milner/A_Calculus_for_Communicating_Systems.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >3.</td>
+                            <td>
+                                <p>Milner, R., Mads Tofte and Robert Harper, Definition of Standard ML, MIT Press, 1990.</p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/1991_milner/Definition_of_Standard_ML.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+                <Script language="JavaScript" src="../footer.js"></Script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

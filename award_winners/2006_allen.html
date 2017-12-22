@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frances Elizabeth Allen</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <Script language="JavaScript" src="../header.js"></Script>
+    <div id='buttonL'>
+        <a href="../award_winners/2005_naur.html">
+            <img src="images/arrowL.png" width="50"/></a></div>
+    <div id='buttonR'>
+        <a href="../award_winners/2007_clarke_emerson_sifakis.html">
+            <img src="images/arrowR.png" width="50"/></a>
+    </div>
+    <script>
+        function movePage(e){
+            switch(e.keyCode){
+                case 37:
+                    location.href = '../award_winners/2005_naur.html';
+                    break;
+                case 39:
+                    location.href = '../award_winners/2007_clarke_emerson_sifakis.html';
+                    break;
+            }
+        }
+        addEventListener("keydown", movePage);
+    </script>
+    <div id="container">
+        <div id="center">
+            <table style="margin-left:10%; width: 80%" >
+                <tr>
+                    <td><img src="images/photos/2006.jpg" width="150"></td>
+                    <td align="left" valign="top">
+                        <p><font color="white" size=5><b>2006 год</b></font></p>
+                        <p><font color="white" size=5><b>Frances Elizabeth Allen</b> (1932)</font></p>
+                        <br>
+                        <p align="justify"><font color="white" size=5>«За новаторский вклад в теорию и практику оптимизации техник компиляторов, послуживший основой для современных оптимизирующих компиляторов и автоматическому распараллеливанию программ»</font></p>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="container2">
+                <div id="textbody">
+                    <br>
+                    <p><b>Страна: </b>США</p>
+                    <p><b>Образование: </b>Магистр науки в области математики, Мичиганский университет, 1957</p>
+                    <br>
+                    <p><b>О лауреате</b></p>
+                    <p align="justify"><font >Allen провела большую часть своей карьеры разрабатывая передовые компиляторы языков программирования для IBM Research Center. Её первым крупным проектом был компьютер IBM 7950 Harvest. Harvest был сопроцессором для Stretch (один из первых суперкомпьютеров), который был разработан по заказу Агентства национальной безопасности США для обработки секретных сообщений. Allen и её команда разработали простой компилятор для обработки трёх разный языков программирования: FORTRAN, Autocoder и Alpha. Компиляторы трех языков разделяли общую оптимизирующую программно-аппаратную часть, которая могла бы генерировать код как для суперкомпьютера Stretch, так и для сопроцессора Harvest. Это было необычайно амбициозным проектом для того времени. Последним её крупным проектом для IBM был Parallel Translator (PTRAN) – система, для компиляции программ, написанных на FORTRAN без использования параллелизма, на компьютерных архитектурах, поддерживающих параллельные вычисления. Allen применила свой обширный опыт анализа межпроцессорного потока для создания новых алгоритмов для извлечения параллелизма из последовательного кода. PTRAN представил концепцию графа зависимостей программы, отображение, ныне используемое многими распараллеливающими компиляторами.</font></p>
+                    <br>
+                    <p><b>Ключевые слова: </b>High-performance computing, Parallel computing, Compiler organization, Optimization</p>
+                    <br>
+                    <p><b>Краткая библиография</b></p>
+                    <table style="width: 100%" >
+                        <tr>
+                            <td align="right" valign="top" >1.</td>
+                            <td>
+                                <p>Allen, Frances E. and John Cocke. “A catalogue of optimizing transformations,” in Randall Rustin (ed.), Design and Optimization of Compilers (Prentice-Hall, 1972), 1—30. </p>
+                                <p><b><i>Возможно, первая статья, систематизирующая преобразования кода, используемые оптимизирующим компилятором для повышения его производительности.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/2006_allen/A_catalogue_of_optimizing_transformations.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >2.</td>
+                            <td>
+                                <p>Allen, Frances E., “Interprocedural data flow analysis,” Proceedings of Information Processing 74, IFIP, Elsevier / North-Holland (1974), pp. 398-402. </p>
+                                <p><b><i>Ранняя статья, описывающая алгоритм компилятора для отслеживания потока данных между несколькими процедурами. В этой работе предполагается, что процедуры не являются рекурсивными и пока не используют представление интервалов графа.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" ></td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >3.</td>
+                            <td>
+                                <p>Allen, Frances E. and J. Cocke, “A program data flow analysis procedure,” Communications of the ACM, Vol. 19, Num. 3 (March 1976), pp. 137-147.</p>
+                                <p><b><i>Эта статья описывает метод анализа потока данных «определение-использование», который, в частности, эффективен на графах управления потоками.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/2006_allen/A_program_data_flow_analysis_procedure.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+                <Script language="JavaScript" src="../footer.js"></Script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

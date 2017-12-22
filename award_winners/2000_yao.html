@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Andrew Chi-Chih Yao</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <Script language="JavaScript" src="../header.js"></Script>
+    <div id='buttonL'>
+        <a href="../award_winners/1999_brooks.html">
+            <img src="images/arrowL.png" width="50"/></a></div>
+    <div id='buttonR'>
+        <a href="../award_winners/2001_dahl_nygaard.html">
+            <img src="images/arrowR.png" width="50"/></a>
+    </div>
+    <script>
+        function movePage(e){
+            switch(e.keyCode){
+                case 37:
+                    location.href = '../award_winners/1999_brooks.html';
+                    break;
+                case 39:
+                    location.href = '../award_winners/2001_dahl_nygaard.html';
+                    break;
+            }
+        }
+        addEventListener("keydown", movePage);
+    </script>
+    <div id="container">
+        <div id="center">
+            <table style="margin-left:10%; width: 80%" >
+                <tr>
+                    <td><img src="images/photos/2000.jpg" width="150"></td>
+                    <td align="left" valign="top">
+                        <p><font color="white" size=5><b>2000 год</b></font></p>
+                        <p><font color="white" size=5><b>Andrew Chi-Chih Yao</b> (1946)</font></p>
+                        <br>
+                        <p align="justify"><font color="white" size=5>«В дань его фундаментальному вкладу в теорию вычислений, включающему, основанную на понятии сложности вычисления, теорию генерации псевдослучайных чисел, криптографии, и коммуникационной сложности»</font></p>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="container2">
+                <div id="textbody">
+                    <br>
+                    <p><b>Страна: </b>КНР</p>
+                    <p><b>Образование: </b>Доктор философии в области физики, Гарвардский университет, 1972. Доктор философии в области информатики, Иллинойский университет, 1975</p>
+                    <br>
+                    <p><b>О лауреате</b></p>
+                    <p align="justify"><font >В начале 1980-х годов Yao выпустил ряд статей, которые повлияли на зарождение криптографии, информационной безопасности, вычислительной сложности и вероятностных вычислений. Его достижения в области криптографии с открытым ключом показали, что безопасное шифрование может быть основано на сложности некоторых вычислительных задач, например, квадратичных вычетов, или факторизации целых чисел. Для этого он формализовал запись однонаправленных функций, значение которых легко вычислить, но тяжело провести обратную операцию. Он доказал, что однонаправленные функции с определённым свойствами могут лечь в основу генераторов псевдослучайных чисел. Начиная с 1990-х годов Yao начал работать исключительно в сферах квантовых вычислений и связи, теории информации и теории алгоритмов.</font></p>
+                    <br>
+                    <p><b>Ключевые слова: </b>Yao’s Principle, Dolev-Yao model, Cryptography theory</p>
+                    <br>
+                    <p><b>Краткая библиография</b></p>
+                    <table style="width: 100%" >
+                        <tr>
+                            <td align="right" valign="top" >1.</td>
+                            <td>
+                                <p>Yao, Andrew Chi-Chih, “Probabilistic Computations: Toward a Unified Measure of Complexity” (Extended Abstract), 18th Annual Symposium on Foundations of Computer Science (FOCS ’77), IEEE Computer Society, 1977, pp. 222-227. </p>
+                                <p><b><i>Статья рассматривает вероятностные вычисления с двух точек зрения: распределения вероятностей для входных данных и использование случайности в алгоритмах, учитывая принцип Yao.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" ></td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >2.</td>
+                            <td>
+                                <p>Dolev, Danny and Andrew Chi-Chih Yao, “On the security of public key protocols,” IEEE Transactions on Information Theory, Vol. 29, Num. 2, 1983, pp. 198-207.</p>
+                                <p><b><i>Авторы представляют модель для анализа криптографических протоколов, которая получила название «модель Dolev-Yao» и является основой большинства современных подходов к формальной верификации таких протоколов.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/2000_yao/On_the_security_of_public_key_protocols.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >3.</td>
+                            <td>
+                                <p>Yao, Andrew Chi-Chih, “Should Tables Be Sorted?” (Extended Abstract), 19th Annual Symposium on Foundations of Computer Science (FOCS ’78). IEEE Computer Society, 1978, pp. 22-27. </p>
+                                <p><b><i>Статья вводит модель сотового зонда для анализа структур данных, в которой стоимость вычислений – это количество обращений к произвольной ячейке памяти.</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/2000_yao/Should_Tables_Be_Sorted.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >4.</td>
+                            <td>
+                                <p>Yao, Andrew Chi-Chih, “Protocols for Secure Computations” (Extended Abstract), 23rd Annual Symposium on Foundations of Computer Science (FOCS ’82), IEEE Computer Society, 1982, pp. 160-164. </p>
+                                <p><b><i>Статья вводит понятие оценки безопасности функции и предоставляет отчёт по исследованию «Проблемы миллионеров».</i></b></p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/2000_yao/Protocols_for_Secure_Computations.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                        <tr>
+                            <td align="right" valign="top" >5.</td>
+                            <td>
+                                <p>Yao, Andrew Chi-Chih, “How to Generate and Exchange Secrets” (Extended Abstract), 27th Annual Symposium on Foundations of Computer Science (FOCS ’87), IEEE Computer Society, 1986, pp. 162-167. </p>
+                            </td>
+                            <!--<td align="right" valign="top" >-->
+                                <!--<a href="publications/2000_yao/How_to_Generate_and_Exchange_Secrets.pdf" target="_blank"><p>[pdf]</p></a>-->
+                            <!--</td>-->
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+                <Script language="JavaScript" src="../footer.js"></Script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
