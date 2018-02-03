@@ -1,3 +1,1 @@
-document.write('<div id="top" class="aref" align="center">\n' +
-    '    <font color="white" size="5"><a href="../index.html" style="color: white"><b>Премия Тьюринга</b></a></font><br>\n' +
-    '</div>')
+document.write('<font color="white"><a href="../index.html" style="color: white"><b><h2 align="center"> Премия Тьюринга</h2></b></a></font>')
